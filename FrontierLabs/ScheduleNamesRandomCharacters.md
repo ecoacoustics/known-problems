@@ -1,0 +1,44 @@
+# Schedule names are random characters
+Sometimes Frontier Labs sensors lose their schedule.
+The root cause of this is unknown.
+In this case, in the logs, the schedule name is shown as a series of random characters.
+
+An excerpt from the logs:
+```
+  D:\Temp\logs_GPS\Z__sd_card_rip_20210302_77_305_311_logfile.txt (27 hits)
+	Line 12: 01/01/2010 00:00:02   Name: «[*þé‡˜·ªS¾Ú
+	Line 64: 03/06/2020 05:10:36   Name: 
+	Line 79: 03/06/2020 05:12:10   Name: 0:26   Write ä
+	Line 101: 03/06/2020 05:12:21   Name: 
+	Line 188: 03/06/2020 14:06:01   Name: ber: 53373100ä
+	Line 211: 03/06/2020 14:06:14   Name: 
+	Line 28869: 31/12/2020 00:13:57   Name: 
+	Line 28892: 31/12/2020 00:14:10   Name: 
+	Line 28914: 31/12/2020 00:20:35   Name: 1/12/2020 00:ä
+	Line 28937: 31/12/2020 00:20:47   Name: 
+	Line 28959: 31/12/2020 00:25:08   Name: osition acquiä
+	Line 28982: 31/12/2020 00:25:20   Name: 
+	Line 29004: 31/12/2020 00:31:40   Name: 31/12/2020 00ä
+	Line 29027: 31/12/2020 00:31:52   Name: 
+	Line 29049: 31/12/2020 00:38:13   Name: are no more rä
+	Line 29072: 31/12/2020 00:38:25   Name: 
+	Line 29094: 31/12/2020 00:44:45   Name:  to stabiliseä
+	Line 29117: 31/12/2020 00:44:57   Name: 
+	Line 29139: 31/12/2020 00:51:17   Name: isabled
+	Line 29163: 31/12/2020 00:51:28   Name: 
+	Line 29185: 31/12/2020 00:57:49   Name: ft in the schä
+	Line 29208: 31/12/2020 00:58:01   Name: 
+	Line 29230: 31/12/2020 01:04:21   Name:  00:58:02 Theä
+	Line 29253: 31/12/2020 01:04:33   Name: 
+	Line 29275: 31/12/2020 01:10:53   Name: ession every ä
+	Line 29297: 31/12/2020 01:11:05   Name: 
+	Line 29338: 15/02/2021 04:35:09   Name: 
+```
+
+## Status
+
+Minor issue. FL are aware of the issue.
+
+## Tools to process the data
+
+ 1. Ecosounds/AnalysisPrograms: Not affected by this issue since it doesn't currently use the schedule names anywhere.
