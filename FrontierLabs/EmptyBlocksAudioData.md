@@ -20,7 +20,7 @@ minute recordings captured no signal at all.
 The fact that both recordings started capturing signal within one millisecond
 leads me to believe this not simply a microphone connection issue.
 
-![example of problem](ecoacoustics/known-problems/media/BARs_weird_signal.png)
+![example of problem](https://github.com/ecoacoustics/known-problems/tree/main/media/BARs_weird_signal.png)
 
 ## Status
 **Minor Problem** It most likely is just damaged hardware. This is mainly being
