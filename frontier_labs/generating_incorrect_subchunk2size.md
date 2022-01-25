@@ -1,5 +1,9 @@
 # Generating incorrect `Subchunk2Size` header values
 
+|Problem ID | Manufacturer | Firmware changes | Status              |
+|-----------|--------------|------------------|---------------------|
+|FL050         |Frontier Labs |                  |   Minor problem     |
+
 It appears that Frontier Labs writes an incorrect value for the `data` subchunk's
 size field (known as `Subchunk2Size` or `cksize`). The value should be the size
 of the data block, in bytes, and should be the equivalent of
@@ -20,7 +24,7 @@ about 0.136 seconds of error.
 This problem has not been reported to FL yet.
 
 ## Tools to process the data
-1. Ecosounds: **Yes**
+1. Acoustics Workbench (Ecosounds, A2O): **Yes**
 
 -   Yes: While technically incorrect, all the values are small enough that they
     are omitted or ignored in our higher level code.

@@ -1,5 +1,9 @@
 # Generating files that overlap with the next file in the sequence
 
+|Problem ID | Manufacturer      | Firmware changes | Status              |
+|-----------|-------------------|------------------|---------------------|
+|WA030         |Wildlife Acoustics |                  |   Major problem     |
+
 
 Recent deployments with SM4s have been generating files that overlap. For
 example, if there are two files, `20171201_060000.wav` and `20171201_120000.wav`,
@@ -21,7 +25,7 @@ overlap.
 
 ## Tools to process the data
 
-1. Ecosounds: **No**. The website rejects files that overlap more than 12 seconds. Due to the
+1. Acoustics Workbench (Ecosounds, A2O): **No**. The website rejects files that overlap more than 12 seconds. Due to the
 distributed nature of harvesting protocols some files in a harvest a
 harvested and some are not – leading to a lengthy process required for deleting
 the files from Ecosounds, trimming them, and re-harvesting.

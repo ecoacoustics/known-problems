@@ -1,4 +1,10 @@
 # Schedule names are random characters
+
+|Problem ID | Manufacturer | Firmware changes | Status              |
+|-----------|--------------|------------------|---------------------|
+|FL060         |Frontier Labs |                  |   Minor problem     |
+
+
 Sometimes Frontier Labs sensors lose their schedule.
 The root cause of this is unknown.
 In this case, in the logs, the schedule name is shown as a series of random characters.
@@ -41,4 +47,4 @@ Minor issue. FL are aware of the issue.
 
 ## Tools to process the data
 
- 1. Ecosounds/AnalysisPrograms: Not affected by this issue since it doesn't currently use the schedule names anywhere.
+ 1. Acoustics Workbench (Ecosounds, A2O)/AnalysisPrograms: Not affected by this issue since it doesn't currently use the schedule names anywhere.

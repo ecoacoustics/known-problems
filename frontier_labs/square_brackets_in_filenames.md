@@ -1,5 +1,9 @@
 # Square brackets in filenames
 
+|Problem ID | Manufacturer | Firmware changes | Status              |
+|-----------|--------------|------------------|---------------------|
+|FL070         |Frontier Labs |                  |   Minor problem     |
+
 Since the BARs have GPSs in them, they encode the Latitude and Longitude in the
 folder and file names of their recordings. The problem is they do it using the
 following format: `20160916_Cast16-001 [-37.5397
@@ -18,7 +22,7 @@ they changed the default or not.
 
 ## Tools to process the data
 
-1. Ecosounds: can’t process files with wildcards in the filenames. Tracking
+1. Acoustics Workbench (Ecosounds): can’t process files with wildcards in the filenames. Tracking
 issue: <https://github.com/QutBioacoustics/baw-workers/issues/60>
 
     Slowly making our scripts more resilient to wildcard paths.

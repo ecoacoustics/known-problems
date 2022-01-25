@@ -1,5 +1,11 @@
 # Empty blocks of audio data
 
+|Problem ID | Manufacturer | Firmware changes | Status              |
+|-----------|--------------|------------------|---------------------|
+|FL020         |Frontier Labs |                  |   Minor problem     |
+
+
+
 Sometimes BARs start recording and no signal is recorded, until at some point
 the signal starts being captured.
 
@@ -27,7 +33,7 @@ leads me to believe this not simply a microphone connection issue.
 documented in case we discover the behaviour again.
 
 ## Tools to process the data
-1. Ecosounds: **Yes**. It varies:
+1. Acoustic Workbench (Ecosounds, A2O): **Yes**. It varies:
 
 -   Yes (now): There was a bug with our background noise calculation in AP.exe
     which has been resolved <https://github.com/QutEcoacoustics/audio-analysis/issues/187>

@@ -1,5 +1,9 @@
 # Generating corrupt full-size files
 
+|Problem ID | Manufacturer | Firmware changes | Status              |
+|-----------|--------------|------------------|---------------------|
+|FL030         |Frontier Labs |                  |   Major problem     |
+
 The BARs produce audio files that are full-size but only have partial data
 written to them.
 
@@ -32,7 +36,7 @@ Additionally, these files should have recoverable WAV data in them but we don’
 yet have a tool that can repair them.
 
 ## Tools to process the data
-1. Ecosounds: **No**. It varies:
+1. Acoustics Workbench (Ecosounds, A2O): **No**. It varies:
 
 -   Yes: SoX usually reports massive bit rates and sometimes it detect
     this as invalid and fail when processing the file

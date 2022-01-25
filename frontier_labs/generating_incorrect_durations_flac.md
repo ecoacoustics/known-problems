@@ -1,5 +1,10 @@
 # Generating incorrect durations for FLAC files
 
+|Problem ID | Manufacturer | Firmware changes | Status              |
+|-----------|--------------|------------------|---------------------|
+|FL040         |Frontier Labs |                  |   Major problem     |
+
+
 It appears that Frontier Labs writes an incorrect value for the `duration` 
 in the FLAC headers.
 
@@ -12,7 +17,7 @@ Most audio processing tools will fail eventually when they pass the point where 
 
 ## Tools to process the data
 1. Audacity: will work 
-2. Ecosounds: **No**
+2. Acoustics Workbench (Ecosounds, A2O): **No**
 
 -   Workbench: needs correct metadata
 

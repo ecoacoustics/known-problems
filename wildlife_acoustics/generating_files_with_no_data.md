@@ -1,5 +1,9 @@
 # Generating Files with No Data
 
+|Problem ID | Manufacturer      | Firmware changes | Status              |
+|-----------|-------------------|------------------|---------------------|
+|WA020         |Wildlife Acoustics |                  |   Major problem     |
+
 At some point during a deployment, the SM4s start generating small files, each
 about 128KB, each filled with `NUL` bytes. ~~Probable cause: SD card full.~~
 
@@ -31,7 +35,7 @@ Visualization of these failures:
 
 ## Tools to process the data
 
-1. Ecosounds: **No**. FFMPEG reports the file has having invalid data. "Invalid data found
+1. Acoustics Workbench (Ecosounds, A2O): **No**. FFMPEG reports the file has having invalid data. "Invalid data found
 when processing input"
 
 ## Workarounds
