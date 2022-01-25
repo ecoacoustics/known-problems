@@ -2,7 +2,7 @@
 
 |Problem ID | Manufacturer | Firmware changes | Status              |
 |-----------|--------------|------------------|---------------------|
-|FL060         |Frontier Labs |                  |   Minor problem     |
+|FL06         |Frontier Labs |                  |   Minor problem     |
 
 
 Sometimes Frontier Labs sensors lose their schedule.

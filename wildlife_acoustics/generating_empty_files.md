@@ -2,7 +2,7 @@
 
 |Problem ID | Manufacturer      | Firmware changes | Status              |
 |-----------|-------------------|------------------|---------------------|
-|WA010         |Wildlife Acousitcs |                  |   Ignored     |
+|WA01         |Wildlife Acousitcs |                  |   Ignored     |
 
 The sensors pretty regularly generate empty files - 0KB in size. Not sure why.
 

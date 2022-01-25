@@ -2,7 +2,7 @@
 
 |Problem ID | Manufacturer | Firmware changes | Status              |
 |-----------|--------------|------------------|---------------------|
-|FL030         |Frontier Labs |                  |   Major problem     |
+|FL03         |Frontier Labs |                  |   Major problem     |
 
 The BARs produce audio files that are full-size but only have partial data
 written to them.

@@ -2,7 +2,7 @@
 
 |Problem ID | Manufacturer | Firmware changes | Status              |
 |-----------|--------------|------------------|---------------------|
-|FL040         |Frontier Labs |                  |   Major problem     |
+|FL04         |Frontier Labs |                  |   Major problem     |
 
 
 It appears that Frontier Labs writes an incorrect value for the `duration` 

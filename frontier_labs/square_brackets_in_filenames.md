@@ -2,7 +2,7 @@
 
 |Problem ID | Manufacturer | Firmware changes | Status              |
 |-----------|--------------|------------------|---------------------|
-|FL070         |Frontier Labs |                  |   Minor problem     |
+|FL07         |Frontier Labs |                  |   Minor problem     |
 
 Since the BARs have GPSs in them, they encode the Latitude and Longitude in the
 folder and file names of their recordings. The problem is they do it using the

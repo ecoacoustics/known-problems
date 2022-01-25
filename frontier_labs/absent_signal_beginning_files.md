@@ -2,7 +2,7 @@
 
 |Problem ID | Manufacturer | Firmware changes | Status              |
 |-----------|--------------|------------------|---------------------|
-|FL020         |Frontier Labs |                  |   Minor problem     |
+|FL02         |Frontier Labs |                  |   Minor problem     |
 
 
 

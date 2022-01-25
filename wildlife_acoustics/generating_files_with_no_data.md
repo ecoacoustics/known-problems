@@ -2,7 +2,7 @@
 
 |Problem ID | Manufacturer      | Firmware changes | Status              |
 |-----------|-------------------|------------------|---------------------|
-|WA020         |Wildlife Acoustics |                  |   Major problem     |
+|WA02         |Wildlife Acoustics |                  |   Major problem     |
 
 At some point during a deployment, the SM4s start generating small files, each
 about 128KB, each filled with `NUL` bytes. ~~Probable cause: SD card full.~~

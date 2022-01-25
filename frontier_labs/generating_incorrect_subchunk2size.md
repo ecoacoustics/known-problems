@@ -2,7 +2,7 @@
 
 |Problem ID | Manufacturer | Firmware changes | Status              |
 |-----------|--------------|------------------|---------------------|
-|FL050         |Frontier Labs |                  |   Minor problem     |
+|FL05         |Frontier Labs |                  |   Minor problem     |
 
 It appears that Frontier Labs writes an incorrect value for the `data` subchunk's
 size field (known as `Subchunk2Size` or `cksize`). The value should be the size

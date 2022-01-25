@@ -2,7 +2,7 @@
 
 |Problem ID | Manufacturer      | Firmware changes | Status              |
 |-----------|-------------------|------------------|---------------------|
-|WA030         |Wildlife Acoustics |                  |   Major problem     |
+|WA03         |Wildlife Acoustics |                  |   Major problem     |
 
 
 Recent deployments with SM4s have been generating files that overlap. For
