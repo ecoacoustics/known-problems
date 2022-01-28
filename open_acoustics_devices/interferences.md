@@ -11,7 +11,7 @@ Audiomoths data can have some interferences on them. There are two main types of
 Appear every half a second or so, usually more visible on the higher frequencies and it consists in a intermitent click sound.
 
 ### Example:
-TODO
+![example of problem](../media/clickinterference_audiomoth.JPG)
 
 
 ### Status:
@@ -28,4 +28,4 @@ Several tests were conducted trying to reproduce this interference, however none
 
 ## Example:
 
-TODO
+![example of problem](../media/insectinterference_audiomoth.JPG)
