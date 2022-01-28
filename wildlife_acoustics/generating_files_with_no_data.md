@@ -26,7 +26,7 @@ Update: For one deployment of 8 sensors we saw this problem a lot.
 > - If these sensors were running off solar power this behaviour would make sense.
 
 Visualization of these failures:
-![sm4_failures_empty_file.png](./media/sm4_failures_empty_file.png)
+![sm4_failures_empty_file.png](../media/sm4_failures_empty_file.png)
 
 
 ## Status
