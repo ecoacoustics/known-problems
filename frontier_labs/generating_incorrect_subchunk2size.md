@@ -18,7 +18,9 @@ Interestingly this problem was discovered while trying to create a validation
 check for the corrupt files (see [this file](./GeneratingCorruptFiles.md)) that BARs sometimes produce.
 
 ## Status
-*Minor problem*. For files with simple wav headers 3 samples worth of error is
+**Minor problem**. 
+
+For files with simple wav headers 3 samples worth of error is
 about 0.136 seconds of error.
 
 This problem has not been reported to FL yet.
@@ -26,5 +28,5 @@ This problem has not been reported to FL yet.
 ## Tools to process the data
 1. Acoustics Workbench (Ecosounds, A2O): **Yes**
 
--   Yes: While technically incorrect, all the values are small enough that they
+-   While technically incorrect, all the values are small enough that they
     are omitted or ignored in our higher level code.
