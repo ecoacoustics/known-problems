@@ -43,8 +43,13 @@ An excerpt from the logs:
 
 ## Status
 
-Minor issue. FL are aware of the issue.
+**Minor issue**
+
+FL are aware of the issue.
 
 ## Tools to process the data
 
- 1. Acoustics Workbench (Ecosounds, A2O)/AnalysisPrograms: Not affected by this issue since it doesn't currently use the schedule names anywhere.
+ 1. Acoustics Workbench (Ecosounds, A2O): **Yes**
+ 2. AnalysisPrograms: **Yes**
+ 
+ - Both tools are not affected by this issue since they don't currently use the schedule names anywhere.
