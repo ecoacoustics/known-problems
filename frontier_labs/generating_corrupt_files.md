@@ -26,7 +26,9 @@ sample rates for recordings (e.g. `5.4 Terasamples per second` or
 `34.4 Terasamples per second`).
 
 ## Status
-**Major Problem**. Have contacted Frontier Labs. They don’t see it as a problem
+**Major Problem**
+
+Have contacted Frontier Labs, but they don’t see it as a problem
 – if it is always the last file in the deployment then"_that the second last
 file is the last correct file_". Recommended changing the file extension of an in
 progress file being written to a `.partial` extension – this would allow easy
@@ -36,7 +38,7 @@ Additionally, these files should have recoverable WAV data in them but we don’
 yet have a tool that can repair them.
 
 ## Tools to process the data
-1. Acoustics Workbench (Ecosounds, A2O): **No**. It varies:
+1. Acoustics Workbench (Ecosounds, A2O): **Not really**, but it can vary:
 
 -   Yes: SoX usually reports massive bit rates and sometimes it detect
     this as invalid and fail when processing the file
@@ -45,7 +47,8 @@ yet have a tool that can repair them.
     <https://github.com/QutBioacoustics/baw-workers/issues/63>
 -   No: Sometimes the files pass by our initial validation. 
 
-2. AnalysisPrograms.exe: this leads to an OutOfMemoryException. Tracking issue:
+2. AnalysisPrograms.exe: **No**
+- This leads to an OutOfMemoryException. Tracking issue:
     <https://github.com/QutBioacoustics/audio-analysis/issues/141>
 -   No: our tools have no way to detect these files without trying to read them
 -   No: we have no method for repairing these files – they mostly have valid
