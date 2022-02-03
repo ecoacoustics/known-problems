@@ -11,6 +11,7 @@ We now believe the cause is low power from the main batteries.
 
 Update: For one deployment of 8 sensors we saw this problem a lot.
 
+## Details: 
 > TL;DR: there are two weeks of good data, and the third week is a write-off.
 > 
 > - All the corrupt files happen towards the end of the deployment
@@ -25,19 +26,22 @@ Update: For one deployment of 8 sensors we saw this problem a lot.
 > - The sensor tries to repeatedly record again when a file fails to record
 > - If these sensors were running off solar power this behaviour would make sense.
 
-Visualization of these failures:
+## Example:
 ![sm4_failures_empty_file.png](../media/sm4_failures_empty_file.png)
 
 
 ## Status
 
-**Major Problem**. Not yet contacted WA
+**Major Problem**
+
+Not yet contacted WA
 
 ## Tools to process the data
 
-1. Acoustics Workbench (Ecosounds, A2O): **No**. FFMPEG reports the file has having invalid data. "Invalid data found
+1. Acoustics Workbench (Ecosounds, A2O): **No**
+- FFMPEG reports the file has having invalid data. "Invalid data found
 when processing input"
 
 ## Workarounds
 
-Filter out small files (less than 500KB) when doing things.
+Filter out small files (less than 500KB) when analysing data.
