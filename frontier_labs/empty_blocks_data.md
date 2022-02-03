@@ -6,10 +6,8 @@
 
 
 
-Sometimes BARs start recording and no signal is recorded, until at some point
-the signal starts being captured.
-
-In the absence of signal we do capture some digital noise, indicating that the
+Sometimes BARs start recording but no actual signal is recorded, until at some point
+it starts being captured. Even though there is no signal, some digital noise is captured, indicating that the
 sensor does think it is recording.
 
 The simplest answer is that the microphone is either faulty or not attached.
@@ -33,7 +31,7 @@ leads me to believe this not simply a microphone connection issue.
 documented in case we discover the behaviour again.
 
 ## Tools to process the data
-1. Acoustic Workbench (Ecosounds, A2O): **Yes**. It varies:
+1. Acoustic Workbench (Ecosounds, A2O): **Yes**, but it varies:
 
 -   Yes (now): There was a bug with our background noise calculation in AP.exe
     which has been resolved <https://github.com/QutEcoacoustics/audio-analysis/issues/187>
