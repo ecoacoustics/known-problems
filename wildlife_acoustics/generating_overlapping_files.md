@@ -21,11 +21,14 @@ overlap.
 
 ## Status
 
-**Major Problem**. Not yet contacted WA
+**Major Problem**
+
+Not yet contacted WA
 
 ## Tools to process the data
 
-1. Acoustics Workbench (Ecosounds, A2O): **No**. The website rejects files that overlap more than 12 seconds. Due to the
+1. Acoustics Workbench (Ecosounds, A2O): **No**
+- The website rejects files that overlap more than 12 seconds. Due to the
 distributed nature of harvesting protocols some files in a harvest a
 harvested and some are not – leading to a lengthy process required for deleting
 the files from Ecosounds, trimming them, and re-harvesting.
