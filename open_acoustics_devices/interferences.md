@@ -24,11 +24,11 @@ This type of interference appears suddenly on recordings and there is no clear p
 
 Several tests were conducted trying to reproduce this interference, however none of them demonstrated any consistency, pattern of explanation.
 
+## Example:
+
+![example of problem](../media/insectinterference_audiomoth.JPG)
+
 ## Status:
 **Major problem**
 
 This interference will affect acoustics indices, recognisers and almost every semi/automatic tool for data processing. OAD was contacted but no solution or explanation was found.
-
-## Example:
-
-![example of problem](../media/insectinterference_audiomoth.JPG)
