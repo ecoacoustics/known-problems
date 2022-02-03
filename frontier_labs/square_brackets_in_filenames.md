@@ -16,16 +16,19 @@ paths are treated as literals.
 
 ## Status
 
-**Minor Problem**. Have contacted Frontier Labs, they seemed receptive to
+**Minor Problem**
+
+Have contacted Frontier Labs, they seemed receptive to
 feedback on changing the character used to denote GPS coordinates. Unsure if
 they changed the default or not.
 
 ## Tools to process the data
 
-1. Acoustics Workbench (Ecosounds): can’t process files with wildcards in the filenames. Tracking
-issue: <https://github.com/QutBioacoustics/baw-workers/issues/60>
+1. Acoustics Workbench (Ecosounds): **No**
 
-    Slowly making our scripts more resilient to wildcard paths.
+- Update: Slowly making our scripts more resilient to wildcard paths.
+- Can’t process files with wildcards in the filenames. Tracking
+issue: <https://github.com/QutBioacoustics/baw-workers/issues/60>
 
 ## Workarounds
 
