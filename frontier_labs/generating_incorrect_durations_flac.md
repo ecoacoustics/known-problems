@@ -16,11 +16,13 @@ This affects firmwares 3.17 to 3.24.
 Most audio processing tools will fail eventually when they pass the point where valid data exists.
 
 ## Tools to process the data
-1. Audacity: **Yes** 
-2. Acoustics Workbench (Ecosounds, A2O): **No**
+1. EMU: [EMU](https://github.com/QutEcoacoustics/emu#fix-the-fl010-metadata-duration-bug) can fix the duration of files in batch
+2. Audacity: **Yes** 
+3. Acoustics Workbench (Ecosounds, A2O): **No**
 
 -   The workbench needs correct metadata
 
-3. AP: **No**, but can be worked around by analyzing the first half of the file by specifying the `-s 0 -e <actual end offset>` arguments
+4. AP: **No**, but can be worked around by analyzing the first half of the file by specifying the `-s 0 -e <actual end offset>` arguments
+
 
 
