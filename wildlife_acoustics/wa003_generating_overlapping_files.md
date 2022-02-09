@@ -1,8 +1,8 @@
 # Generating files that overlap with the next file in the sequence
 
-|Problem ID | Manufacturer      | Firmware changes | Status              |
-|-----------|-------------------|------------------|---------------------|
-|WA03         |Wildlife Acoustics |                  |   Major problem     |
+|Problem ID | Manufacturer      | Affected Firmware | Affected Hardware| Status              |
+|-----------|-------------------|------------------|---------------------|------------------|
+|WA003         |Wildlife Acoustics |   1.0.8               |   SM4               |Major problem     |
 
 
 Recent deployments with SM4s have been generating files that overlap. For
@@ -22,6 +22,8 @@ overlap.
 ## Status
 
 **Major Problem**
+
+## Status with vendor
 
 Not yet contacted WA
 
