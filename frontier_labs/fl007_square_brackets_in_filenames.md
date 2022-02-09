@@ -1,8 +1,8 @@
 # Square brackets in filenames
 
-|Problem ID | Manufacturer | Firmware changes | Status              |
-|-----------|--------------|------------------|---------------------|
-|FL07         |Frontier Labs |                  |   Minor problem     |
+|Problem ID | Manufacturer | Affected firmware| Affected hardware | Status              |
+|-----------|--------------|------------------|--------------------|---------------------|
+|FL007         |Frontier Labs | unknown                 |  BAR            | Minor problem     |
 
 Since the BARs have GPSs in them, they encode the Latitude and Longitude in the
 folder and file names of their recordings. The problem is they do it using the
@@ -17,6 +17,8 @@ paths are treated as literals.
 ## Status
 
 **Minor Problem**
+
+## Status with vendor
 
 Have contacted Frontier Labs, they seemed receptive to
 feedback on changing the character used to denote GPS coordinates. Unsure if
