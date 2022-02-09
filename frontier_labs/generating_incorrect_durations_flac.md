@@ -18,6 +18,7 @@ Most audio processing tools will fail eventually when they pass the point where 
 ## Example files
 
 - [📁 FL010 files on cloudstor](https://cloudstor.aarnet.edu.au/plus/s/hrmQPSrkqV0Evvv?path=%2Ffrontier_labs%2FFL010)
+- More examples are available at [QUT Ecoacoustics](https://github.com/QutEcoacoustics/Ecoacoustics/blob/master/Known%20Issues%20with%20Acoustic%20Sensors.md#example-data) but we aren't allowed to release the publically due to data sharing rights
 
 ## Tools to process the data
 1. EMU: [EMU](https://github.com/QutEcoacoustics/emu#fix-the-fl010-metadata-duration-bug) can fix the duration of files in batch
