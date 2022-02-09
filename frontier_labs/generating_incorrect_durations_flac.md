@@ -15,6 +15,10 @@ This affects firmwares 3.17 to 3.24.
 
 Most audio processing tools will fail eventually when they pass the point where valid data exists.
 
+## Example files
+
+- [📁 FL010 files on cloudstor](https://cloudstor.aarnet.edu.au/plus/s/hrmQPSrkqV0Evvv?path=%2Ffrontier_labs%2FFL010)
+
 ## Tools to process the data
 1. EMU: [EMU](https://github.com/QutEcoacoustics/emu#fix-the-fl010-metadata-duration-bug) can fix the duration of files in batch
 2. Audacity: **Yes** 
