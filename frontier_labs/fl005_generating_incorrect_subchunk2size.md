@@ -1,8 +1,8 @@
 # Generating incorrect `Subchunk2Size` header values
 
-|Problem ID | Manufacturer | Firmware changes | Status              |
-|-----------|--------------|------------------|---------------------|
-|FL05         |Frontier Labs |                  |   Minor problem     |
+|Problem ID | Manufacturer | Affected Firmware| Affected Hardware | Status              |
+|-----------|--------------|------------------|--------------------|---------------------|
+|FL005         |Frontier Labs |    2.2; 2.99           |  BAR |   Minor problem     |
 
 It appears that Frontier Labs writes an incorrect value for the `data` subchunk's
 size field (known as `Subchunk2Size` or `cksize`). The value should be the size
@@ -22,6 +22,8 @@ check for the corrupt files (see [this file](./GeneratingCorruptFiles.md)) that 
 
 For files with simple wav headers 3 samples worth of error is
 about 0.136 seconds of error.
+
+## Status with vendor
 
 This problem has not been reported to FL yet.
 
