@@ -2,7 +2,7 @@
 
 |Problem ID | Manufacturer | Affected Firmware | Affected Hardware | Status              |
 |-----------|--------------|------------------|--------------------|---------------------|
-|FL001         |Frontier Labs |     3.17 to 3.24 | BAR             |   Major problem     |
+|FL010         |Frontier Labs |     3.17 to 3.24 | BAR             |   Major problem     |
 
 
 It appears that Frontier Labs writes an incorrect value for the `duration` 
