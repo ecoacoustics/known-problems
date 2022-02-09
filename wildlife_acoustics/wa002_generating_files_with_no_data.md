@@ -1,8 +1,8 @@
 # Generating Files with No Data
 
-|Problem ID | Manufacturer      | Firmware changes | Status              |
-|-----------|-------------------|------------------|---------------------|
-|WA02         |Wildlife Acoustics |                  |   Major problem     |
+|Problem ID | Manufacturer      | Affected Firmware| Affected hardware | Status              |
+|-----------|-------------------|------------------|-------------------|---------------------|
+|WA002         |Wildlife Acoustics |      Unknown            |   SM4          |Major problem     |
 
 At some point during a deployment, the SM4s start generating small files, each
 about 128KB, each filled with `NUL` bytes. ~~Probable cause: SD card full.~~
@@ -33,6 +33,8 @@ Update: For one deployment of 8 sensors we saw this problem a lot.
 ## Status
 
 **Major Problem**
+
+## Status with vendor
 
 Not yet contacted WA
 
