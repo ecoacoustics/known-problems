@@ -1,8 +1,8 @@
 # Generating corrupt full-size files
 
-|Problem ID | Manufacturer | Firmware changes | Status              |
-|-----------|--------------|------------------|---------------------|
-|FL03         |Frontier Labs |                  |   Major problem     |
+|Problem ID | Manufacturer | Affected firmware|Affected hardware | Status              |
+|-----------|--------------|------------------|------------------|---------------------|
+|FL003         |Frontier Labs |      2.2; 2.5; 2.8 | BAR            |   Major problem     |
 
 The BARs produce audio files that are full-size but only have partial data
 written to them.
@@ -27,6 +27,8 @@ sample rates for recordings (e.g. `5.4 Terasamples per second` or
 
 ## Status
 **Major Problem**
+
+## Status with vendor
 
 Have contacted Frontier Labs, but they don’t see it as a problem
 – if it is always the last file in the deployment then"_that the second last
