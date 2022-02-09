@@ -1,8 +1,8 @@
 # Empty blocks of audio data
 
-|Problem ID | Manufacturer | Firmware changes | Status              |
-|-----------|--------------|------------------|---------------------|
-|FL02         |Frontier Labs |                  |   Minor problem     |
+|Problem ID | Manufacturer | Affected Firmware | Affected Hardware | Status              |
+|-----------|--------------|------------------|--------------------|--------------------|
+|FL002         |Frontier Labs |   2.99         | BAR               |   Minor problem     |
 
 
 
@@ -29,6 +29,10 @@ leads me to believe this not simply a microphone connection issue.
 ## Status
 **Minor Problem** It most likely is just damaged hardware. This is mainly being
 documented in case we discover the behaviour again.
+
+## Status with vendor
+
+FL is not aware of the issue.
 
 ## Tools to process the data
 1. Acoustic Workbench (Ecosounds, A2O): **Yes**, but it varies:
