@@ -6,4 +6,5 @@
 - [FL005: Generating incorrect `Subchunk2Size` header values](./FL005.md)
 - [FL006: Schedule names are random characters](./FL006.md)
 - [FL007: Incorrect SD Card Serial Number Encoded](./FL007.md)
+- [FL008: Invalid datestamps in file names (space instead of a zero)](./FL008.md)
 - [FL010: Metadata duration bug](./FL010.md)
