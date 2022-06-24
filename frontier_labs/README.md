@@ -9,3 +9,4 @@
 - [FL007: Incorrect SD Card Serial Number Encoded](./FL007.md)
 - [FL008: Invalid datestamps in file names (space instead of a zero)](./FL008.md)
 - [FL010: Metadata duration bug](./FL010.md)
+- [FL011: Partial files named `data`](./FL011.md)
