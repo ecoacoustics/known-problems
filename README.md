@@ -2,7 +2,7 @@
 
 A collection of well-known problems that occur in passive acoustic monitors.
 
-# Why
+## Why
 
 Sharing the information about issues with acoustic sensors can be time saving for other people.
 Researchers might experience the same issues and by sharing the workarounds and tools to deal
@@ -10,7 +10,7 @@ with the issues listed here people won't have to spend time trying ot figure out
 It can also be useful when making a decision about which device to buy. Moreover, being a
 technical document it can aid when questioning vendors about their product and possible issues. 
 
-# Status
+## Status
 
 This was writing from our own experience with acoustic sensors, but we expect contributions
 and additional resources/information to deal
@@ -24,7 +24,7 @@ or by making a change through a pull-request.
 Disclaimer: some of the information here may be out of date! If you have better information
 then please let us know!
 
-# Goal
+## Goal
 
 It is our eventual goal that most of the problems documented can either be fixed,
 or at least detected and omitted from large collections of ecoacoustics audio files.
@@ -32,13 +32,19 @@ or at least detected and omitted from large collections of ecoacoustics audio fi
 [EMU](https://github.com/QutEcoacoustics/emu) (the Ecoacoustic Metadata Utility) is a tool
 that fixes some of the problems documented.
 
-# Manufacturers
+## Problems by Vendor/Manufacturer
 
-- [Frontier Labs](https://github.com/ecoacoustics/known-problems/tree/main/frontier_labs)
-- [Open Acoustics Device](https://github.com/ecoacoustics/known-problems/tree/main/open_acoustics_devices)
-- [Wildlife Acoustics](https://github.com/ecoacoustics/known-problems/tree/main/wildlife_acoustics)
+- [Frontier Labs](./frontier_labs)
+- [Open Acoustics Device](./open_acoustics_devices)
+- [Wildlife Acoustics](./wildlife_acoustics)
 
-# Support
+## Generic problems with files
+
+These a problems that are common to audio files but are not associated with any vendor.
+
+- [Open Ecoacoustics](./open_ecoacoustics)
+
+## Support
 
 This This project is supported by the [Open Ecoacoustics](https://openecoacoustics.org/) project.
 ![The Open Ecoacoustics Logo](./media/OpenEcoAcoustics_horizontal_rgb.jpg)
