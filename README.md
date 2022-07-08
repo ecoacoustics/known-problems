@@ -4,11 +4,15 @@ A collection of well-known problems that occur in passive acoustic monitors.
 
 ## Why
 
-Sharing the information about issues with acoustic sensors can be time saving for other people.
-Researchers might experience the same issues and by sharing the workarounds and tools to deal
-with the issues listed here people won't have to spend time trying ot figure out what happens.
-It can also be useful when making a decision about which device to buy. Moreover, being a
-technical document it can aid when questioning vendors about their product and possible issues. 
+Sharing information about issues with acoustic sensors can be time saving for other people.
+Sharing the workarounds and tools to deal
+with the issues listed here means people won't have to spend time trying ot figure out to fix the issues themselves.
+Moreover, a central and technical description of problems can be useful when communicating with
+vendors about their product and possible issues. 
+
+This repository is not intended to be an indictment. Any technology used at scale
+has problems: the number of known faults does not make one vendor better than
+another!
 
 ## Status
 
