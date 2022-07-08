@@ -16,11 +16,14 @@ another!
 
 ## Status
 
-This was writing from our own experience with acoustic sensors, but we expect contributions
+This was written from our own experience with acoustic sensors, but we expect contributions
 and additional resources/information to deal
 with the issues and problems listed here. We are also working on solutions, developing
 tools to solve them or contacting vendors to inform them of the practical 
 aspects of their products.
+
+Please let us know if you're affected by a problem! We appreciate sample files
+demonstrating the problems as well!
 
 Contributions are welcome and should be done through the [issues tab](https://github.com/ecoacoustics/known-problems/issues)
 or by making a change through a pull-request.
