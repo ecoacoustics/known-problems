@@ -10,3 +10,4 @@
 - [FL008: Invalid datestamps in file names (space instead of a zero)](./FL008.md)
 - [FL010: Metadata duration bug](./FL010.md)
 - [FL011: Partial files named `data`](./FL011.md)
+- [FL012: Data chunk size is zero](./FL012.md)
