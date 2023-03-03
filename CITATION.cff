@@ -11,7 +11,5 @@ authors:
     given-names: Nelli
     orcid: https://orcid.org/0000-0002-2052-2047
 title: "Known Problems with Passive Acoustic Monitors"
-type: standard
 url: https://github.com/ecoacoustics/metadata-standard
 version: 1.0.0
-doi: 10.5281/zenodo.7694270
