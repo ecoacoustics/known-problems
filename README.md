@@ -42,7 +42,7 @@ that fixes some of the problems documented.
 ## Problems by Vendor/Manufacturer
 
 - [Frontier Labs](./frontier_labs)
-- [Open Acoustics Device](./open_acoustics_devices)
+- [Open Acoustic Device](./open_acoustic_devices)
 - [Wildlife Acoustics](./wildlife_acoustics)
 
 ## Generic problems with files
