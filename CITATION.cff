@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you find the information in this repo useful then please cite it as below."
+authors:
+  - family-names: Truskinger
+    given-names: Anthony
+    orcid: https://orcid.org/0000-0003-1110-1483
+  - family-names: D. A. Scarpelli
+    given-names: Marina
+    orcid: https://orcid.org/0000-0001-7315-1406
+  - family-names: Holopainen
+    given-names: Nelli
+    orcid: https://orcid.org/0000-0002-2052-2047
+title: "Known Problems with Passive Acoustic Monitors"
+url: https://github.com/ecoacoustics/metadata-standard
+version: 1.0.0
