@@ -12,6 +12,6 @@ we just group them here in this namespace.
 - [OE002: Ambiguous datestamps in filenames](./OE002.md)
 - [OE003: Invalid Datestamp](./OE003.md)
 - [OE004: Empty file](./OE004.md)
-- [OE005: Null fuiles](./OE005.md)
+- [OE005: Null files](./OE005.md)
 
   
